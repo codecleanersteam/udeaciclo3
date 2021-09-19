@@ -1,0 +1,1 @@
+print("Mi nombre es Mauricio Cendales, soy Ingeniero Electrónico y soy un apasionado por los temas de tecnología.")
