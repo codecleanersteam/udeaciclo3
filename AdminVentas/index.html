@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Módulo Administrador de Ventas</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<h1>MÓDULO ADMINISTRADOR DE VENTAS</h1><br>
+	<div id = "izq">
+		<p>Vendedor: <script src="code.js"></script> </p>
+	</div>
+	<hr>
+	<div id = "header">
+		<ul class = "nav">
+			<li><a href="">Cliente</a>
+				<ul>
+					<li><a href="">Crear Nuevo Cliente</a></li>
+					<li><a href="">Modificar Datos Cliente</a></li>
+					<li><a href="">Ver Clientes</a></li>
+					<li><a href="">Eliminar Cliente</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="">Productos</a>
+				<ul>
+					<li><a href="">Agregar Nuevo Producto</a></li>
+					<li><a href="">Modificar Datos de Producto</a>
+						<ul>
+							<li><a href="">Cambiar Precio</a></li>
+							<li><a href="">Modificar Impuestos</a></li>
+						</ul>
+
+					</li>
+					<li><a href="">Ver Productos Disponibles</a></li>
+					<li><a href="">Eliminar Producto</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="">Pedidos</a>
+				<ul>
+					<li><a href="">Nuevo Pedido</a></li>
+					<li><a href="">Modificar Pedido</a></li>
+					<li><a href="">Ver Pedidos Realizados</a></li>
+					<li><a href="">Eliminar Pedido</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="">Ayuda</a>
+				<ul>
+					<li><a href="">Acerca de...</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<br><br><br>
+
+	<div>
+		<p>Fecha Venta:</p>
+		<input type="date">
+	</div>
+
+	<div>
+		<p>Plazo de Pago</p>
+		<select>
+			<option>Contado</option>
+			<option>7 dias</option>
+			<option>15 dias</option>
+			<option>30 dias</option>
+			<option>60 dias</option>
+			<option selected="selected">Contado</option>
+		</select>
+	</div>
+
+	<div>
+		<p>Fecha de Pago:</p>
+		<input type="date">
+	</div>
+</body>
+</html>

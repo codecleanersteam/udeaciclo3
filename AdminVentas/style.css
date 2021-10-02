@@ -1,0 +1,77 @@
+
+
+
+/*Estilo del Cuerpo*/
+/*Alinear todo a la derecha*/
+* { 
+	padding: 0px;
+	margin: 0px;
+}
+
+/*Estilo del Título*/
+h1 {
+	font-family: Calibri;
+	text-align: center;
+}
+
+
+/*Estilo a la Izquierda*/
+#izq {
+	margin: auto;
+	text-align: right;
+	width: 800px;
+}
+
+/*Modificar la fuente de lo que está dentro del ID header, se centra y se le da un ancho*/
+#header {
+	margin: auto;
+	width: 800px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Quitarle el estilo a las listas, tanto ordenadas como desordenadas*/
+ul, ol {
+	list-style: none;
+}
+
+/*Configurar el color de los Menús, gris fondo, negro fuente, se aplia el padding y se colocan los elementos para que se myuestren en bloque*/
+.nav li a {
+	background-color: #cccccc;
+	color: #000;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+/*Configura que cuando se pase el mouse, utiliza un color diferente*/
+.nav li a:hover {
+	background-color: #e6e6e6;
+
+}
+
+/*Coloca a la izquierda la barra de menús principal los submenus*/
+.nav > li {
+	float: left;
+}
+
+/*Hace que todos los submenus desaparezcan, Hace que se amplien más de lo que se necesitan los menús*/
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+/*Los list que están dentro de nav, cuando pasemos el mouse, en la clase hover, aparezcan, el > indica que sean los list directos de ul.*/
+.nav li:hover > ul {
+	display: block;
+}
+
+/*Se esta cambiando la posición relativa para poder tener los submenus al lado.*/
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul ul {
+	right: -173px;
+	top: 0px;
+}
