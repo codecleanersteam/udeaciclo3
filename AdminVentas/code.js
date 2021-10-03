@@ -1,2 +1,2 @@
-vendedor = "Juan";
+vendedor = "Mauricio";
 document.write(vendedor);
